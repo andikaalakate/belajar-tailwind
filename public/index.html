@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,8 +12,8 @@
 </head>
 
 <body class="bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-200">
-    <section id="#head" class="sticky">
-        <h2 class="font-bold text-4xl mx-auto mt-6 text-center font-poppins">
+    <section id="#head" class="sticky px-4 mt-10">
+        <h2 class="font-bold text-4xl mx-auto text-center font-poppins">
             Belajar Menggunakan <span
                 class="text-transparent bg-gradient-to-br from-blue-400 to-green-300 bg-clip-text">TailwindCSS</span>
         </h2>
@@ -22,16 +22,16 @@
         </h3>
     </section>
 
-    <section class="py-20 bg-opacity-25 bg-gradient-to-b from-blue-400 to-cyan-400 rounded-b-xl">
+    <section class="mt-12 py-20 bg-gradient-to-b from-blue-400 to-cyan-400 rounded-xl px-4 max-w-3xl mx-auto group">
         <h2
-            class="text-3xl mx-auto my-2 font-bold text-center font-mono text-white text-opacity-75 hover:text-opacity-100">
-            Web Programming Unpas
+            class="text-3xl my-2 font-bold text-center font-mono text-white max-w-sm mx-auto text-opacity-75 duration-500 transition delay-150 group-hover:text-opacity-100 group-hover:underline group-hover:scale-125 group-hover:cursor-pointer rounded-lg animate-pulse group-hover:animate-none">
+            Web Programming UNPAS
         </h2>
     </section>
 
-    <section class="max-w-3xl mx-auto px-4">
+    <section class="max-w-3xl mx-auto px-4 mt-14">
         <h2 class="text-xl my-2 font-bold font-poppins">
-            Belajar Mengenai Typography pada TailwindCSS
+            Belajar Mengenai Typography pada <span class="text-transparent bg-gradient-to-br from-blue-400 to-green-300 bg-clip-text">TailwindCSS</span>
         </h2>
         <div class="mb-4 text-gray-500 dark:text-slate-300">By <span
                 class="font-bold text-gray-700 dark:text-slate-100">Andika Pratama</span>, 20 Desember 2023
@@ -46,7 +46,7 @@
             culpa, fugiat voluptatibus in, enim maiores aperiam, autem facere ea rem veritatis dolorem. Cumque?
         </p>
         <blockquote
-            class="mb-4 text-thin italic text-gray-500 hover:text-gray-950 dark:hover:text-slate-100 dark:hover:underline">
+            class="mb-4 text-thin text-lg transition duration-500 italic text-gray-500 hover:text-gray-950 hover:underline dark:hover:text-slate-100 dark:hover:underline hover:scale-105">
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime sed animi dicta ratione
             accusamus?"
         </blockquote>
@@ -56,8 +56,10 @@
         </p>
     </section>
 
-    <section>
-        <div class="max-w-xl mb-10 h-96 bg-blue-300 mx-auto mt-10 overflow-y-scroll bg-fixed bg-cover bg-no-repeat bg-center rounded-2xl shadow-lg shadow-slate-500 border-4 border-slate-300 bg-blend-multiply"
+    <hr class="my-20 shadow">
+
+    <section class="px-4">
+        <div class="max-w-3xl mb-10 h-96 bg-blue-300 mx-auto mt-10 overflow-y-scroll bg-fixed bg-cover bg-no-repeat bg-center rounded-2xl shadow-lg shadow-slate-500 border-4 border-slate-300 bg-blend-multiply"
             style="background-image: url('../dist/img/background-4.webp');">
             <p class="text-white p-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non itaque magni eligendi dolore quam
@@ -79,19 +81,23 @@
         </div>
     </section>
 
-    <div class="flex justify-center mb-6">
+    <hr class="my-20 shadow">
+
+    <section class="flex justify-center mb-6">
         <span class="text-sm text-slate-600 dark:text-slate-100 mr-2">Light</span>
-        <input type="checkbox" id="toggle" class="hidden"/>
+        <input type="checkbox" id="toggle" class="hidden" />
         <label for="toggle">
             <div class="w-9 h-5 bg-slate-100 border shadow dark:bg-slate-600 rounded-full flex items-center p-1">
                 <div class="w-4 h-4 bg-slate-600 rounded-full dark:bg-slate-100 toggle-circle"></div>
             </div>
         </label>
         <span class="text-sm text-slate-600 ml-2 dark:text-slate-100">Dark</span>
-    </div>
+    </section>
+
+    <hr class="my-20 shadow">
 
     <section
-        class="max-w-lg border border-slate-400 rounded-xl mx-auto block mb-4 font-poppins p-3 shadow-md shadow-slate-400 duration-100 hover:scale-105 bg-opacity-25 bg-slate-300 hover:bg-slate-100 group">
+        class="max-w-xl px-4 border border-slate-400 rounded-xl mx-auto block mb-4 font-poppins p-3 shadow-md shadow-slate-400 transition duration-500 hover:scale-105 bg-opacity-25 bg-slate-300 hover:bg-slate-100 group">
         <h5 class="font-bold dark:group-hover:text-slate-600">My Card</h5>
         <p
             class="text-slate-600 font-mono selection:bg-slate-400 selection:text-slate-700 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:text-slate-100 dark:group-hover:text-slate-600">
@@ -106,7 +112,7 @@
         class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-mono block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 shadow-md shadow-slate-400">Simpan</button>
 
     <section
-        class="max-w-lg border border-slate-400 rounded-xl mx-auto block mb-4 font-poppins p-3 shadow-md shadow-slate-400 duration-100 hover:scale-105 hover:bg-slate-100 bg-opacity-25 bg-slate-300 group">
+        class="max-w-xl px-4 border border-slate-400 rounded-xl mx-auto block mb-4 font-poppins p-3 shadow-md shadow-slate-400 transition duration-500 hover:scale-105 hover:bg-slate-100 bg-opacity-25 bg-slate-300 group">
         <form>
             <label for="email"
                 class="font-mono block font-semibold text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5 dark:text-slate-100 dark:group-hover:text-slate-600 mb-1">Email</label>
@@ -122,8 +128,7 @@
         const checkbox = document.querySelector('#toggle');
         const html = document.querySelector('html');
 
-        checkbox.addEventListener('click', function()
-        {
+        checkbox.addEventListener('click', function () {
             checkbox.checked ? html.classList.add('dark') : html.classList.remove('dark');
         })
     </script>
