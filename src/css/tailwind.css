@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-#toggle:checked ~ label div.toggle-circle {
-    @apply translate-x-3;
+@layer utilities {
+    #toggle:checked ~ label div.toggle-circle {
+        @apply translate-x-3;
+    }
+}
+
+@layer components {
+    .gallery-card {
+        @apply rounded-md shadow-lg overflow-hidden sm:w-64 hp:mb-0 sm:mb-0 md:w-72 hp:w-60 mini:w-full lg:w-64;
+    }
+    .gallery {
+        @apply container mx-auto px-4 font-poppins lg:max-w-6xl sm:flex sm:flex-wrap sm:gap-6 sm:justify-center mini:flex mini:flex-wrap mini:gap-6 mini:justify-center;
+    }
 }
